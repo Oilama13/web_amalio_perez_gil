@@ -75,3 +75,30 @@ ul {
 .contenido li {
     margin-bottom: 0.5rem;
 }
+
+/* Estilos para la sección Contacto */
+#contacto {
+    background: #2c3e50;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.info-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.info-contacto a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Para suavizar el scroll al hacer clic */
+html {
+    scroll-behavior: smooth;
+}
