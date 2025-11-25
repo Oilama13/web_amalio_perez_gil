@@ -77,25 +77,27 @@ ul {
 }
 
 /* Estilos para la sección Contacto */
-#contacto {
-    background: #2c3e50;
-    color: white;
-    padding: 3rem 2rem;
-    text-align: center;
+.icono-contacto {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.info-contacto {
-    max-width: 600px;
-    margin: 0 auto;
+.info-contacto p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px ;
 }
 
 .info-contacto a {
-    color: #3498db;
+    color: #2c3e50;
     text-decoration: none;
 }
 
 .info-contacto a:hover {
-    text-decoration: underline;
+    color: #3498db;
 }
 
 /* Para suavizar el scroll al hacer clic */
